@@ -1,0 +1,40 @@
+/* PUT DASHES BACK  */
+body {
+  background-color: #949899;
+  color: black;
+  font-family: Arial;
+}
+
+.scene {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* i couldnt for the life of me fiure out how to make it so that the color for the background ends on the end of the text. I used AI to help me with this. This line of code makes it so the background stretches only to the end of the content, and not the row. */
+}
+.stage-direction {
+    background-color: #728767;
+    border: 1px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+.dialogue {
+ background-color: #b57078;
+ border: 1px solid black;
+ margin: 5px;
+ display: inline-block;
+ 
+}
+.character {
+    background-color: #726294;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+ 
+ 
+ 
+.rot1106.jpg {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
